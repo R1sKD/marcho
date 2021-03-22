@@ -21,19 +21,19 @@
   }
   &__list-link {
     color: $title;
-    @extend %quicksand-400;
+    @extend %roboto-700;
     text-transform: uppercase;
-    padding-bottom: 1px;
+    padding: 0 2px 1px;
     transition: all .3s;
     &:hover {
       color: $accent;
-      @extend %quicksand-500;
+      @extend %roboto-700;
       border-bottom: 1px solid $accent;
     }
   }
   &__list-link--active {
     color: $accent;
-    @extend %quicksand-500;
+    @extend %roboto-700;
     border-bottom: 1px solid $accent;
   }
 }
